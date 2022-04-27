@@ -9,7 +9,10 @@
 * C#
 * .NET 5.0
 * dotnet
+* MVC
+* Entity
 * MySql/Workbench
+* Swagger
 
 ## Description
 
@@ -17,10 +20,10 @@ An API for lists of available cats and dogs at a shelter.
 
 ## Setup/Installation Requirements
 
-* Make sure you have MySql Workbench installed on your computer.
-* Make sure to have dotnet-ef installed too.<br>
+* Have MySql Workbench installed on your computer.
+* Have dotnet-ef installed too.<br>
 <em>This project uses <code>dotnet-ef --version 3.0.0</code> which I have globally installed but you can install it however you want. 
-* Download repo to your computer using either clone or the download link.
+* Clone project.
 * Open the project in VScode or your terminal/IDE of choice.
 * Create an <code>appsettings.json</code> file in the root directory of the project folder: <code>Animal.Solution/Animal/</code>. And add the following code replacing anything in square brackets with the information it represents specific to the project database:
 ```
@@ -57,7 +60,6 @@ Example of complete appsettings.json:
 
 ```
 
-* Make sure to run your mysql server and open MySql workbench.
 * Open MySql Workbench and login to your server.
 * From your terminal navigate to the <code>Animal.Solution/Animal/</code> folder and run the command <code>dotnet ef database update</code> to create the database from migrations.
 * Now using your IDE navigate into the Animal.Solution/Animal folder and use the command dotnet run to launch the program.
