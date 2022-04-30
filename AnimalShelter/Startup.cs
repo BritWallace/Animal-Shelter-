@@ -4,9 +4,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Animal.Models;
+using Pets.Models;
 
-namespace Animal
+namespace Pets
 {
     public class Startup
     {

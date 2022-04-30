@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace Animal.Models
+namespace Pets.Models
 {
 public class AnimalContext : DbContext
 {
