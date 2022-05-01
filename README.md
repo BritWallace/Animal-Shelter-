@@ -106,7 +106,7 @@ Example Response
 ```
 ## Known Bugs
 
-* _Still figuring out Swagger._
+* _No known bugs._
 
 ## Contact Me
 
