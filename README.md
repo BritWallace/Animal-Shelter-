@@ -25,7 +25,7 @@ An API for lists of available cats and dogs at a shelter.
 <em>This project uses <code>dotnet-ef --version 3.0.0</code> which I have globally installed but you can install it however you want. 
 * Clone project.
 * Open the project in VScode or your terminal/IDE of choice.
-* Create an <code>appsettings.json</code> file in the root directory of the project folder: <code>Animal.Solution/Animal/</code>. And add the following code replacing anything in square brackets with the information it represents specific to the project database:
+* Create an <code>appsettings.json</code> file in the root directory of the project folder: <code>Animal.Solution/AnimalShelter/</code>. And add the following code replacing anything in square brackets with the information it represents specific to the project database:
 ```
 {
   "Logging": {
@@ -61,8 +61,8 @@ Example of complete appsettings.json:
 ```
 
 * Open MySql Workbench and login to your server.
-* From your terminal navigate to the <code>Animal.Solution/Animal/</code> folder and run the command <code>dotnet ef database update</code> to create the database from migrations.
-* Now using your IDE navigate into the Animal.Solution/Animal folder and use the command dotnet run to launch the program.
+* From your terminal navigate to the <code>Animal.Solution/AnimalShelter/</code> folder and run the command <code>dotnet ef database update</code> to create the database from migrations.
+* Now using your IDE navigate into the Animal.Solution/AnimalShelter folder and use the command dotnet run to launch the program.
 * The API should now be available at the server address you used in the appsettings.json folder.
 * The site should be available at the server address you used in the <code>appsettings.json</code> folder.
 
@@ -70,7 +70,7 @@ Example of complete appsettings.json:
 You can explore the API endpoints in Postman or your browser. Once the API is running you can also go to <code>[Your-server-address]/swagger</code>.  
 * For example <code>http://localhost:5001/swagger</code>
 
-This is an open API so you don't need any authentication to use all CRUD functionality. 
+This is an open API. 
 
 ### Endpoints
 Base URL: http://localhoust:5001
@@ -98,7 +98,7 @@ Example Response
   "breed": "Unknown",
   "age": 20,
   "gender": "Female",
-  "color": "Black"
+  "color": "Black and White"
 }
 ```
 
@@ -106,7 +106,7 @@ Example Response
 ```
 ## Known Bugs
 
-* _No known bugs._
+* _Still figuring out Swagger._
 
 ## Contact Me
 
